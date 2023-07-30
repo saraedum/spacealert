@@ -10,9 +10,9 @@ export default {
 <template>
   <div class="card">
     <div class="code">{{ code }}</div>
-    <space-alert-action when="X" v-if="x">{{ x }}</space-alert-action>
-    <space-alert-action when="Y" v-if="y">{{ y }}</space-alert-action>
-    <space-alert-action when="Z" v-if="z">{{ z }}</space-alert-action>
+    <space-alert-action when="X" v-if="x && x != '-'">{{ x }}</space-alert-action>
+    <space-alert-action when="Y" v-if="y && y != '-'">{{ y }}</space-alert-action>
+    <space-alert-action when="Z" v-if="z && z != '-'">{{ z }}</space-alert-action>
     <div v-if="subtitle != '-'">
       <hr/>
       <span class="subtitle">
