@@ -1,0 +1,113 @@
+E1-01,Normal (2/4),Pulse Ball,2,5,1,,Attack 1 on all zones,Attack 1 on all zones,Attack 2 on all zones,-
+E1-02,Normal (2/4),Destroyer,2,5,2,,Attack 1,Attack 2,Attack 2,Double damage that gets through shields
+E1-03,Normal (2/4),Stealth Fighter,4,4,2,,Reveals itself,Attack 2,Attack 2,Cannot be targeted until it reveals itself (X)
+E1-04,Normal (2/4),Energy Cloud,2,5,3,,Drains all energy from all shields,Attack 1 on other two zones,Attack 2 on other two zones,Has 0 shield points on turns when hit by pulse cannon
+E1-05,Normal (2/4),Gunship,2,5,2,,Attack 2,Attack 2,Attack 3,-
+E1-06,Normal (2/4),Cryoshield Fighter,3,4,1,,Attack 1,Attack 2,Attack 2,"When hit the first time, it receives no damage.
+Hits on later turns do normal damage."
+E1-07,Normal (2/4),Fighter,3,4,2,,Attack 1,Attack 2,Attack 3,-
+E1-08,Normal (2/4),Armored Grappler,2,4,3,,Attack 1,Repairs 1 damage,Attack 4,-
+E1-09,Normal (2/4),Amoeba,2,8,0,,Heals 2 damage,Heals 2 damage,Attack 5,Cannot be targeted by rockets
+E1-10,Normal (2/4),Meteoroid,5,5,0,,-,-,Attack equal to its remaining hit points,Cannot be targeted by rockets
+SE1-01,Serious (4/8),Frigate,2,7,2,,Attack 2,Attack 3,Attack 4,-
+SE1-02,Serious (4/8),Man-Of-War,1,9,2,,"Attack 2
++1 Speed","Attack 3
++1 Shield point",Attack 5,-
+SE1-03,Serious (4/8),Leviathan Tanker,2,8,3,,Attack 2,"Attack 2
+Repair 2 damage",Attack 2,"If destroyed, it does 1 damage to all other external threats"
+SE1-04,Serious (4/8),Pulse Satellite,3,4,2,,Attack 1 on all zones,Attack 2 on all zones,Attack 3 on all zones,Cannot be targeted at distance 3
+SE1-05,Serious (4/8),Cryoshield Frigate,2,7,1,,Attack 2,Attack 3,Attack 4,"When hit the first time, it receives no damage.
+Hits on later turns do normal damage."
+SE1-06,Serious (4/8),Interstellar Octopus,2,8,1,,"If damaged, attack 1 on all zones","If damaged, attack 2 on all zones",Attack 2 per remaining hit point,Cannot be targeted by rockets
+SE1-07,Serious (4/8),Maelstrom,,,,,Drains all energy from all shields,Attack 2 on other two zones,Attack 3 on other two zones,Has 0 shield points on turns when hit by pulse cannon
+SE1-08,Serious (4/8),Asteroid,3,9,0,,-,-,Attack equal to its remaining hit points,"Cannot be targeted by rockets
+When destroyed, attack 2 for each X and Y square it has passed"
+E2-01,Advanced Normal (3/6),Kamikaze,4,5,2,,"+1 Speed
+Shield points = 1","+1 Speed
+Shield points = 0",Attack 6,-
+E2-02,Advanced Normal (3/6),Scout,2,3,1,,"Until destroyed, other external threats
+have +1 to attacks",Other external threats advance 1 square,"Attack 3, ignoring shields
+(+1 to attacks persists)",Cannot be targeted by heavy laser cannons
+E2-03,Advanced Normal (3/6),Phantom Fighter,3,3,3,,Reveals itself,Attack 2,Attack 3,"Cannot be targeted until it reveals itself (X)
+Decoy: rockets target it, but do not hit it"
+E2-04,Advanced Normal (3/6),Swarm,2,3,0,,Attack 1,"Attack 2
+Attack 1 on other zones","Attack 3
+Attack 2 on other zones","Cannot be targeted by rockets
+Does not take more than 1 damage per turn"
+E2-05,Advanced Normal (3/6),Jellyfish,2,13,-2,,"Attack 1 on all zones
+Heals half damage (round down)","Attack 1 on all zones
+Heals half damage (round down)",Attack 2 on all zones,Cannot be targeted by rockets
+E2-06,Advanced Normal (3/6),Marauder,3,6,1,,"All external threats have +1 shield point
+until Marauder is destroyed",Drains 1 energy from each shield,"Attack 4
+(+1 shield point effect persists)",-
+E2-07,Advanced Normal (3/6),Minor Asteroid,4,7,0,,-,-,Attack equal to its remaining hit points,"Cannot be targeted by rockets
+When destroyed, attack 1 for each X and Y square it has passed"
+SE2-01,Advanced Serious (6/12),Behemoth,2,7,4,,"Unless it has at least 2 damage, attack 2","Unless it has at least 3 damage, attack 3","Unless it has at least 6 damage, attack 6","Interceptor strenght is 9 (not 3) against it, but player is knocked out"
+SE2-02,Advanced Serious (6/12),Juggernaut,1,10,3,,"+2 Speed
+Attack 2","+2 Speed
+Attack 3",Attack 7,"Rockets always target it (ignoring other threats), even at distance 3
++1 shield point each time it is hit by a rocket"
+SE2-03,Advanced Serious (6/12),Psionic Satellite,2,5,2,,All players in this zone are delayed,All players on the ship are delayed,All players on the ship are knocked out,Cannot be targeted at distance 3
+SE2-04,Advanced Serious (6/12),Nebula Crab,2,7,2,,Shield points = 4,"+2 Speed
+Shield points = 2","Attack 5 on red zone
+Attack 5 on blue zone",Cannot be targeted by rockets
+SE2-05,Advanced Serious (-/12),Nemesis,3,9,1,,"Attack 1
+Takes 1 damage","Attack 2
+Takes 2 damage",Destroys itself and the ship,"Attack 1 on all zones at the end of any Compute Damage step
+in which it took damage"
+SE2-06,Advanced Serious (6/12),Major Asteroid,2,11,0,,-,-,Attack equal to its remaining hit points,"Cannot be targeted by rockets
+When destroyed, attack 3 for each X and Y square it has passed"
+I1-01,Normal (2/4),Skirmishers,3,1,Red Upper,Bots (shoot back),Move right,Change decks,Deal 3 damage,-
+I1-02,Normal (2/4),Skirmishers,3,1,Blue Upper,Bots (shoot back),Move left,Change decks,Deal 3 damage,-
+I1-03,Normal (2/4),Saboteur,4,1,White Lower,Bots,Moves right,"Takes 1 energy from reactor, if possible
+If not, deals 1 damage",Deals 2 damage,-
+I1-04,Normal (2/4),Saboteur,4,1,White Lower,Bots,Moves left,"Takes 1 energy from reactor, if possible
+If not, deals 1 damage",Deals 2 damage,-
+I1-05,Normal (2/4),Hacked Shields,2,3,Blue Upper,B,Drains all energy from shield,Drains all energy from blue zone reactor,Deals 2 damage,-
+I1-06,Normal (2/4),Hacked Shields,2,3,Red Upper,B,Drains all energy from shield,Drains all energy from red zone reactor,Deals 2 damage,-
+I1-07,Normal (2/4),Unstable Warheads,3,?,Blue Lower,C,-,-,Each unrepaired rocket deals 3 damage,Has 1 hit point for each remaining rocket
+SI1-01,Serious (4/8),Commandos,2,2,Red Lower,Bots (shoot back),Change decks,"If damaged, move right
+Otherwise, deal 2 damage","Deal 4 damage
+Players in that station are knocked out",-
+SI1-02,Serious (4/8),Commandos,2,2,Blue Upper,Bots (shoot back),Change decks,"If damaged, move left
+Otherwise, deal 2 damage","Deal 4 damage
+Players in that station are knocked out",-
+SI1-03,Serious (-/8),Alien,2,2,White Lower,Bots - special,Grows up,"Changes decks
+Deals 1 damage per player in its new station",Takes over ship,Does not fight back until it grows up (X)
+SI1-04,Serious (-/8),Fissure,2,2,Red Upper,"Bots
+C","Until Fissure is repaired,
+damage to this zone is doubled","Until Fissure is repaired,
+damage to the ship is doubled",Ship breaks apart,Interceptors repair Fissure instead of attacking threats
+SI1-05,Serious (4/8),Crossed Wires,3,4,White Upper,B,"Central reactor's energy is transferred to shield
+Excess leaks out",Central shield's energy leaks out,All energy leaks out of all reactors,Each block that leaks out does 1 point of damage to its zone
+SI1-06,Serious (4/8),Battlebot Uprising,2,4,"Red Lower
+Blue Upper",C,"All players leading an active battlebot squad
+are knocked out",All players in these stations are knocked out,"All players not on the bridge
+are knocked out","If performed at both stations on the same turn, actions cause
+1 more damage to the threat"
+I2-01,Advanced Normal (3/6),Slime,2,2,Blue Lower,Bots,Destroys 1 rocket,Spreads left (with 1 hit point),"Deals 2 damage
+(Delay effect persists)","Until it is destroyed, players entering its station(s) are delayed"
+I2-02,Advanced Normal (3/6),Slime,2,2,Red Lower,Bots,Disables this battlebot squad if not yet activated,Spreads right (with 1 hit point),"Deals 2 damage
+(Delay effect persists)","Until it is destroyed, players entering its station(s) are delayed"
+I2-03,Advanced Normal (3/6),Troopers,2,2,Red Upper,Bots (shoot back),Change decks,Move right,Deal 4 damage,-
+I2-04,Advanced Normal (3/6),Troopers,2,2,Blue Lower,Bots (shoot back),Change decks,Move left,Deal 4 damage,-
+I2-05,Advanced Normal (3/6),Virus,3,3,White Upper,C,Consumes 1 energy from each reactor,All players on the ship are delayed,Deals 1 damage to all zones,-
+I2-06,Advanced Normal (3/6),Overheated Reactor,2,3,White Lower,B,Deals 1 damage per block of energy here,Consumes 1 fuel capsule,Deals 3 damage,The final repair action B knocks out players at the other reactors
+SI2-01,Advanced Serious (6/12),Executioner,2,2,Blue Upper,Bots (shoot back),Moves left,Changes decks,Deals 3 damage,"(After it moves, it)
+knocks out everyone there not leading an active battlebot squad"
+SI2-02,Advanced Serious (6/15),Seeker,2,2,White Upper,Bots,"Moves to adjacent station with the most players
+(No move if tied)","Moves to adjacent station with the most players
+(No move if tied)","Deals 5 damage
+Knocks out all players in its station",The player who destroys it is knocked out
+SI2-03,Advanced Serious (6/12),"Power System
+Overload",3,7,"Red Lower
+White Lower
+Blue Lower",B,Consumes 2 energy from central reactor,Consumes 1 energy from each reactor,Deals 3 damage to each zone,"If performed at all 3 reactors on the same turn, actions cause
+2 more damage to the threat"
+SI2-04,Advanced Serious (6/12),Contamination,2,3,"Red Upper
+Red Lower
+Blue Upper
+Blue Lower",Bots,Players here are delayed,Deals 1 damage to this zone,"Players here are knocked out
+This effect persists","Decontamination must be performed in 3 of the 4 stations
+(Effect) applies to each station that has not yet been decontaminated"
+SI2-05,Advanced Serious (-/12),Nuclear Device,4,1,White Lower,C C C,+1 Speed,+1 Speed,Destroys ship,Three players must perform repair action C on the same turn
